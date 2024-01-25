@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE535AB82A66A26E00D066AC /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE535AB72A66A26E00D066AC /* ModelData.swift */; };
+		CE535ABA2A66A29F00D066AC /* weatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = CE535AB92A66A29F00D066AC /* weatherData.json */; };
+		CE56D2CC2A67E5A6006B1424 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56D2CB2A67E5A6006B1424 /* FavouriteView.swift */; };
+		CE866F312A6521C200F29698 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE866F302A6521C200F29698 /* WeatherView.swift */; };
+		CE92BBCA2A78FB72008F1758 /* WeatherSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92BBC92A78FB71008F1758 /* WeatherSheetView.swift */; };
+		CE92BBCC2A78FB9B008F1758 /* WeeklyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92BBCB2A78FB9B008F1758 /* WeeklyForecastView.swift */; };
+		CE92BBCE2A78FBC1008F1758 /* DailyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92BBCD2A78FBC1008F1758 /* DailyDataView.swift */; };
+		CE92BBD02A78FBEB008F1758 /* HourlyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92BBCF2A78FBEB008F1758 /* HourlyDataView.swift */; };
+		CE92BBD22A7934E0008F1758 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE92BBD12A7934E0008F1758 /* UserAPI.swift */; };
+		CE9462272A725AE4008C820D /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9462262A725AE4008C820D /* CustomTabView.swift */; };
+		CE9F26732A6157F800B4EBA2 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F26722A6157F800B4EBA2 /* Modifiers.swift */; };
+		CE9F26752A615E0800B4EBA2 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F26742A615E0800B4EBA2 /* WelcomeView.swift */; };
+		CE9F26772A6166AA00B4EBA2 /* PreView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F26762A6166AA00B4EBA2 /* PreView1.swift */; };
+		CE9F26792A6166B900B4EBA2 /* PreView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F26782A6166B900B4EBA2 /* PreView2.swift */; };
+		CE9F267B2A6166C600B4EBA2 /* PreView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9F267A2A6166C600B4EBA2 /* PreView3.swift */; };
+		CEA1703C2A83823100507CDD /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1703B2A83823100507CDD /* LoginAPI.swift */; };
+		CEA1703E2A8383A200507CDD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1703D2A8383A200507CDD /* LoginViewModel.swift */; };
+		CEA170402A83864D00507CDD /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1703F2A83864D00507CDD /* RegistrationViewModel.swift */; };
+		CEA25AA02A73A44100E2BDE8 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA25A9F2A73A44100E2BDE8 /* WeatherAPI.swift */; };
+		CEA25AA22A73AB8F00E2BDE8 /* tesztview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA25AA12A73AB8F00E2BDE8 /* tesztview.swift */; };
+		CEA3DBE72A80E9D7009C88C8 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBD52A80E9D7009C88C8 /* Montserrat-LightItalic.ttf */; };
+		CEA3DBE82A80E9D7009C88C8 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBD62A80E9D7009C88C8 /* Montserrat-Medium.ttf */; };
+		CEA3DBE92A80E9D7009C88C8 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBD72A80E9D7009C88C8 /* Montserrat-BoldItalic.ttf */; };
+		CEA3DBEA2A80E9D7009C88C8 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBD82A80E9D7009C88C8 /* Montserrat-Light.ttf */; };
+		CEA3DBEB2A80E9D7009C88C8 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBD92A80E9D7009C88C8 /* Montserrat-ThinItalic.ttf */; };
+		CEA3DBEC2A80E9D7009C88C8 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBDA2A80E9D7009C88C8 /* Montserrat-ExtraLight.ttf */; };
+		CEA3DBED2A80E9D7009C88C8 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBDB2A80E9D7009C88C8 /* Montserrat-Thin.ttf */; };
+		CEA3DBEE2A80E9D7009C88C8 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBDC2A80E9D7009C88C8 /* Montserrat-Bold.ttf */; };
+		CEA3DBEF2A80E9D7009C88C8 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBDD2A80E9D7009C88C8 /* Montserrat-MediumItalic.ttf */; };
+		CEA3DBF02A80E9D7009C88C8 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBDE2A80E9D7009C88C8 /* Montserrat-BlackItalic.ttf */; };
+		CEA3DBF12A80E9D7009C88C8 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBDF2A80E9D7009C88C8 /* Montserrat-SemiBold.ttf */; };
+		CEA3DBF22A80E9D7009C88C8 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBE02A80E9D7009C88C8 /* Montserrat-ExtraLightItalic.ttf */; };
+		CEA3DBF32A80E9D7009C88C8 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBE12A80E9D7009C88C8 /* Montserrat-ExtraBold.ttf */; };
+		CEA3DBF42A80E9D7009C88C8 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBE22A80E9D7009C88C8 /* Montserrat-Black.ttf */; };
+		CEA3DBF52A80E9D7009C88C8 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBE32A80E9D7009C88C8 /* Montserrat-Regular.ttf */; };
+		CEA3DBF62A80E9D7009C88C8 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBE42A80E9D7009C88C8 /* Montserrat-Italic.ttf */; };
+		CEA3DBF72A80E9D7009C88C8 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBE52A80E9D7009C88C8 /* Montserrat-SemiBoldItalic.ttf */; };
+		CEA3DBF82A80E9D7009C88C8 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA3DBE62A80E9D7009C88C8 /* Montserrat-ExtraBoldItalic.ttf */; };
+		CEA3DBFB2A80F35C009C88C8 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA3DBFA2A80F35C009C88C8 /* TabBarView.swift */; };
+		CEA723762A8B662000BF70D3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA723752A8B662000BF70D3 /* NetworkError.swift */; };
+		CEAC52012A6EA91A00CE04D5 /* RegistrationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC52002A6EA91A00CE04D5 /* RegistrationAPI.swift */; };
+		CEAE86F32A77DB8000DA1B62 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE86F22A77DB8000DA1B62 /* Colors.swift */; };
+		CEBD52E52A5FE9AB0086A9E2 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD52E42A5FE9AB0086A9E2 /* WeatherApp.swift */; };
+		CEBD52E72A5FE9AB0086A9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD52E62A5FE9AB0086A9E2 /* ContentView.swift */; };
+		CEBD52E92A5FE9AD0086A9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD52E82A5FE9AD0086A9E2 /* Assets.xcassets */; };
+		CEBD52EC2A5FE9AD0086A9E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBD52EB2A5FE9AD0086A9E2 /* Preview Assets.xcassets */; };
+		CEBD52F62A5FEA5E0086A9E2 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD52F52A5FEA5E0086A9E2 /* Location.swift */; };
+		CEBD52F82A5FEAA40086A9E2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD52F72A5FEAA40086A9E2 /* LoginView.swift */; };
+		CEBD52FC2A5FEBA40086A9E2 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD52FB2A5FEBA40086A9E2 /* RegistrationView.swift */; };
+		CEBD52FE2A5FEDE50086A9E2 /* SettingsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD52FD2A5FEDE50086A9E2 /* SettingsAPI.swift */; };
+		CEBD53062A5FFD300086A9E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD53052A5FFD300086A9E2 /* SettingsView.swift */; };
+		CEBD53082A6004AB0086A9E2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBD53072A6004AB0086A9E2 /* LoadingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE535AB72A66A26E00D066AC /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CE535AB92A66A29F00D066AC /* weatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = weatherData.json; sourceTree = "<group>"; };
+		CE56D2CB2A67E5A6006B1424 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		CE866F302A6521C200F29698 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		CE92BBC92A78FB71008F1758 /* WeatherSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSheetView.swift; sourceTree = "<group>"; };
+		CE92BBCB2A78FB9B008F1758 /* WeeklyForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyForecastView.swift; sourceTree = "<group>"; };
+		CE92BBCD2A78FBC1008F1758 /* DailyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDataView.swift; sourceTree = "<group>"; };
+		CE92BBCF2A78FBEB008F1758 /* HourlyDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyDataView.swift; sourceTree = "<group>"; };
+		CE92BBD12A7934E0008F1758 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		CE9462262A725AE4008C820D /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		CE9F26722A6157F800B4EBA2 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		CE9F26742A615E0800B4EBA2 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CE9F26762A6166AA00B4EBA2 /* PreView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreView1.swift; sourceTree = "<group>"; };
+		CE9F26782A6166B900B4EBA2 /* PreView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreView2.swift; sourceTree = "<group>"; };
+		CE9F267A2A6166C600B4EBA2 /* PreView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreView3.swift; sourceTree = "<group>"; };
+		CEA1703B2A83823100507CDD /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		CEA1703D2A8383A200507CDD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CEA1703F2A83864D00507CDD /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		CEA25A9F2A73A44100E2BDE8 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		CEA25AA12A73AB8F00E2BDE8 /* tesztview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tesztview.swift; sourceTree = "<group>"; };
+		CEA3DBD52A80E9D7009C88C8 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		CEA3DBD62A80E9D7009C88C8 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		CEA3DBD72A80E9D7009C88C8 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CEA3DBD82A80E9D7009C88C8 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		CEA3DBD92A80E9D7009C88C8 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CEA3DBDA2A80E9D7009C88C8 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CEA3DBDB2A80E9D7009C88C8 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		CEA3DBDC2A80E9D7009C88C8 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		CEA3DBDD2A80E9D7009C88C8 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CEA3DBDE2A80E9D7009C88C8 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CEA3DBDF2A80E9D7009C88C8 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		CEA3DBE02A80E9D7009C88C8 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CEA3DBE12A80E9D7009C88C8 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CEA3DBE22A80E9D7009C88C8 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		CEA3DBE32A80E9D7009C88C8 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		CEA3DBE42A80E9D7009C88C8 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		CEA3DBE52A80E9D7009C88C8 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CEA3DBE62A80E9D7009C88C8 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CEA3DBF92A80ECD8009C88C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEA3DBFA2A80F35C009C88C8 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		CEA4D9802A6FCCA800462154 /* Apitest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Apitest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CEA723752A8B662000BF70D3 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		CEAC52002A6EA91A00CE04D5 /* RegistrationAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationAPI.swift; sourceTree = "<group>"; };
+		CEAE86F22A77DB8000DA1B62 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CEBD52E12A5FE9AB0086A9E2 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBD52E42A5FE9AB0086A9E2 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
+		CEBD52E62A5FE9AB0086A9E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEBD52E82A5FE9AD0086A9E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBD52EB2A5FE9AD0086A9E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEBD52F52A5FEA5E0086A9E2 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CEBD52F72A5FEAA40086A9E2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CEBD52FB2A5FEBA40086A9E2 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		CEBD52FD2A5FEDE50086A9E2 /* SettingsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAPI.swift; sourceTree = "<group>"; };
+		CEBD53052A5FFD300086A9E2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CEBD53072A6004AB0086A9E2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBD52DE2A5FE9AB0086A9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE92BBC82A78F7DC008F1758 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				CE92BBC92A78FB71008F1758 /* WeatherSheetView.swift */,
+				CE92BBCB2A78FB9B008F1758 /* WeeklyForecastView.swift */,
+				CE92BBCD2A78FBC1008F1758 /* DailyDataView.swift */,
+				CE92BBCF2A78FBEB008F1758 /* HourlyDataView.swift */,
+				CE9462262A725AE4008C820D /* CustomTabView.swift */,
+				CEA3DBFA2A80F35C009C88C8 /* TabBarView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		CEA170412A83867E00507CDD /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				CEAC52002A6EA91A00CE04D5 /* RegistrationAPI.swift */,
+				CEA1703B2A83823100507CDD /* LoginAPI.swift */,
+				CEA25A9F2A73A44100E2BDE8 /* WeatherAPI.swift */,
+				CEBD52FD2A5FEDE50086A9E2 /* SettingsAPI.swift */,
+				CE92BBD12A7934E0008F1758 /* UserAPI.swift */,
+				CEA723752A8B662000BF70D3 /* NetworkError.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		CEA170442A8386AD00507CDD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1703D2A8383A200507CDD /* LoginViewModel.swift */,
+				CEA1703F2A83864D00507CDD /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEA3DBD42A80E9D7009C88C8 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3DBD52A80E9D7009C88C8 /* Montserrat-LightItalic.ttf */,
+				CEA3DBD62A80E9D7009C88C8 /* Montserrat-Medium.ttf */,
+				CEA3DBD72A80E9D7009C88C8 /* Montserrat-BoldItalic.ttf */,
+				CEA3DBD82A80E9D7009C88C8 /* Montserrat-Light.ttf */,
+				CEA3DBD92A80E9D7009C88C8 /* Montserrat-ThinItalic.ttf */,
+				CEA3DBDA2A80E9D7009C88C8 /* Montserrat-ExtraLight.ttf */,
+				CEA3DBDB2A80E9D7009C88C8 /* Montserrat-Thin.ttf */,
+				CEA3DBDC2A80E9D7009C88C8 /* Montserrat-Bold.ttf */,
+				CEA3DBDD2A80E9D7009C88C8 /* Montserrat-MediumItalic.ttf */,
+				CEA3DBDE2A80E9D7009C88C8 /* Montserrat-BlackItalic.ttf */,
+				CEA3DBDF2A80E9D7009C88C8 /* Montserrat-SemiBold.ttf */,
+				CEA3DBE02A80E9D7009C88C8 /* Montserrat-ExtraLightItalic.ttf */,
+				CEA3DBE12A80E9D7009C88C8 /* Montserrat-ExtraBold.ttf */,
+				CEA3DBE22A80E9D7009C88C8 /* Montserrat-Black.ttf */,
+				CEA3DBE32A80E9D7009C88C8 /* Montserrat-Regular.ttf */,
+				CEA3DBE42A80E9D7009C88C8 /* Montserrat-Italic.ttf */,
+				CEA3DBE52A80E9D7009C88C8 /* Montserrat-SemiBoldItalic.ttf */,
+				CEA3DBE62A80E9D7009C88C8 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		CEBD52D82A5FE9AB0086A9E2 = {
+			isa = PBXGroup;
+			children = (
+				CEA25AA12A73AB8F00E2BDE8 /* tesztview.swift */,
+				CEA4D9802A6FCCA800462154 /* Apitest.playground */,
+				CEA170412A83867E00507CDD /* Api */,
+				CEA170442A8386AD00507CDD /* ViewModel */,
+				CEBD52F52A5FEA5E0086A9E2 /* Location.swift */,
+				CE9F26722A6157F800B4EBA2 /* Modifiers.swift */,
+				CEAE86F22A77DB8000DA1B62 /* Colors.swift */,
+				CEA3DBD42A80E9D7009C88C8 /* CustomFont */,
+				CEBD52E32A5FE9AB0086A9E2 /* Weather */,
+				CEBD52E22A5FE9AB0086A9E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBD52E22A5FE9AB0086A9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD52E12A5FE9AB0086A9E2 /* Weather.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBD52E32A5FE9AB0086A9E2 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				CEA3DBF92A80ECD8009C88C8 /* Info.plist */,
+				CEBD52E42A5FE9AB0086A9E2 /* WeatherApp.swift */,
+				CE92BBC82A78F7DC008F1758 /* CustomViews */,
+				CEBD52F22A5FE9B50086A9E2 /* Views */,
+				CEBD52E82A5FE9AD0086A9E2 /* Assets.xcassets */,
+				CEBD52EA2A5FE9AD0086A9E2 /* Preview Content */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		CEBD52EA2A5FE9AD0086A9E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD52EB2A5FE9AD0086A9E2 /* Preview Assets.xcassets */,
+				CE535AB72A66A26E00D066AC /* ModelData.swift */,
+				CE535AB92A66A29F00D066AC /* weatherData.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEBD52F22A5FE9B50086A9E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD52E62A5FE9AB0086A9E2 /* ContentView.swift */,
+				CE9F26742A615E0800B4EBA2 /* WelcomeView.swift */,
+				CEBD52F72A5FEAA40086A9E2 /* LoginView.swift */,
+				CEBD52FB2A5FEBA40086A9E2 /* RegistrationView.swift */,
+				CEBD53052A5FFD300086A9E2 /* SettingsView.swift */,
+				CEBD53072A6004AB0086A9E2 /* LoadingView.swift */,
+				CE9F26762A6166AA00B4EBA2 /* PreView1.swift */,
+				CE9F26782A6166B900B4EBA2 /* PreView2.swift */,
+				CE9F267A2A6166C600B4EBA2 /* PreView3.swift */,
+				CE866F302A6521C200F29698 /* WeatherView.swift */,
+				CE56D2CB2A67E5A6006B1424 /* FavouriteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBD52E02A5FE9AB0086A9E2 /* Weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBD52EF2A5FE9AD0086A9E2 /* Build configuration list for PBXNativeTarget "Weather" */;
+			buildPhases = (
+				CEBD52DD2A5FE9AB0086A9E2 /* Sources */,
+				CEBD52DE2A5FE9AB0086A9E2 /* Frameworks */,
+				CEBD52DF2A5FE9AB0086A9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weather;
+			productName = Weather;
+			productReference = CEBD52E12A5FE9AB0086A9E2 /* Weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBD52D92A5FE9AB0086A9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CEBD52E02A5FE9AB0086A9E2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CEBD52DC2A5FE9AB0086A9E2 /* Build configuration list for PBXProject "Weather" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBD52D82A5FE9AB0086A9E2;
+			productRefGroup = CEBD52E22A5FE9AB0086A9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBD52E02A5FE9AB0086A9E2 /* Weather */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBD52DF2A5FE9AB0086A9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA3DBF52A80E9D7009C88C8 /* Montserrat-Regular.ttf in Resources */,
+				CEA3DBED2A80E9D7009C88C8 /* Montserrat-Thin.ttf in Resources */,
+				CEA3DBF42A80E9D7009C88C8 /* Montserrat-Black.ttf in Resources */,
+				CEA3DBEA2A80E9D7009C88C8 /* Montserrat-Light.ttf in Resources */,
+				CEA3DBF22A80E9D7009C88C8 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				CEA3DBE92A80E9D7009C88C8 /* Montserrat-BoldItalic.ttf in Resources */,
+				CEA3DBF62A80E9D7009C88C8 /* Montserrat-Italic.ttf in Resources */,
+				CEA3DBEB2A80E9D7009C88C8 /* Montserrat-ThinItalic.ttf in Resources */,
+				CEA3DBF32A80E9D7009C88C8 /* Montserrat-ExtraBold.ttf in Resources */,
+				CEA3DBE72A80E9D7009C88C8 /* Montserrat-LightItalic.ttf in Resources */,
+				CEA3DBEC2A80E9D7009C88C8 /* Montserrat-ExtraLight.ttf in Resources */,
+				CEA3DBE82A80E9D7009C88C8 /* Montserrat-Medium.ttf in Resources */,
+				CEBD52EC2A5FE9AD0086A9E2 /* Preview Assets.xcassets in Resources */,
+				CE535ABA2A66A29F00D066AC /* weatherData.json in Resources */,
+				CEA3DBF02A80E9D7009C88C8 /* Montserrat-BlackItalic.ttf in Resources */,
+				CEA3DBF12A80E9D7009C88C8 /* Montserrat-SemiBold.ttf in Resources */,
+				CEA3DBEE2A80E9D7009C88C8 /* Montserrat-Bold.ttf in Resources */,
+				CEA3DBEF2A80E9D7009C88C8 /* Montserrat-MediumItalic.ttf in Resources */,
+				CEA3DBF82A80E9D7009C88C8 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				CEA3DBF72A80E9D7009C88C8 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				CEBD52E92A5FE9AD0086A9E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBD52DD2A5FE9AB0086A9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9462272A725AE4008C820D /* CustomTabView.swift in Sources */,
+				CEA3DBFB2A80F35C009C88C8 /* TabBarView.swift in Sources */,
+				CEBD52E72A5FE9AB0086A9E2 /* ContentView.swift in Sources */,
+				CE866F312A6521C200F29698 /* WeatherView.swift in Sources */,
+				CE56D2CC2A67E5A6006B1424 /* FavouriteView.swift in Sources */,
+				CEA723762A8B662000BF70D3 /* NetworkError.swift in Sources */,
+				CEBD52F62A5FEA5E0086A9E2 /* Location.swift in Sources */,
+				CE92BBCC2A78FB9B008F1758 /* WeeklyForecastView.swift in Sources */,
+				CE92BBCE2A78FBC1008F1758 /* DailyDataView.swift in Sources */,
+				CE9F267B2A6166C600B4EBA2 /* PreView3.swift in Sources */,
+				CE535AB82A66A26E00D066AC /* ModelData.swift in Sources */,
+				CEAC52012A6EA91A00CE04D5 /* RegistrationAPI.swift in Sources */,
+				CE92BBD02A78FBEB008F1758 /* HourlyDataView.swift in Sources */,
+				CE92BBD22A7934E0008F1758 /* UserAPI.swift in Sources */,
+				CEBD53082A6004AB0086A9E2 /* LoadingView.swift in Sources */,
+				CE9F26772A6166AA00B4EBA2 /* PreView1.swift in Sources */,
+				CEAE86F32A77DB8000DA1B62 /* Colors.swift in Sources */,
+				CEA1703C2A83823100507CDD /* LoginAPI.swift in Sources */,
+				CEBD52FC2A5FEBA40086A9E2 /* RegistrationView.swift in Sources */,
+				CEA25AA22A73AB8F00E2BDE8 /* tesztview.swift in Sources */,
+				CEBD52F82A5FEAA40086A9E2 /* LoginView.swift in Sources */,
+				CEBD52E52A5FE9AB0086A9E2 /* WeatherApp.swift in Sources */,
+				CEA1703E2A8383A200507CDD /* LoginViewModel.swift in Sources */,
+				CEBD52FE2A5FEDE50086A9E2 /* SettingsAPI.swift in Sources */,
+				CEBD53062A5FFD300086A9E2 /* SettingsView.swift in Sources */,
+				CE9F26792A6166B900B4EBA2 /* PreView2.swift in Sources */,
+				CEA25AA02A73A44100E2BDE8 /* WeatherAPI.swift in Sources */,
+				CE92BBCA2A78FB72008F1758 /* WeatherSheetView.swift in Sources */,
+				CE9F26732A6157F800B4EBA2 /* Modifiers.swift in Sources */,
+				CE9F26752A615E0800B4EBA2 /* WelcomeView.swift in Sources */,
+				CEA170402A83864D00507CDD /* RegistrationViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEBD52ED2A5FE9AD0086A9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBD52EE2A5FE9AD0086A9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBD52F02A5FE9AD0086A9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weather/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weather/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ez az alkalmazás a helyzetmeghatározási adatokat használja ahhoz, hogy";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = attrecto.Weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBD52F12A5FE9AD0086A9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Weather/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Weather/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Ez az alkalmazás a helyzetmeghatározási adatokat használja ahhoz, hogy";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = attrecto.Weather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBD52DC2A5FE9AB0086A9E2 /* Build configuration list for PBXProject "Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD52ED2A5FE9AD0086A9E2 /* Debug */,
+				CEBD52EE2A5FE9AD0086A9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBD52EF2A5FE9AD0086A9E2 /* Build configuration list for PBXNativeTarget "Weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD52F02A5FE9AD0086A9E2 /* Debug */,
+				CEBD52F12A5FE9AD0086A9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBD52D92A5FE9AB0086A9E2 /* Project object */;
+}

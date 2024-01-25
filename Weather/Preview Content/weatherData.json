@@ -1,0 +1,2 @@
+{"coord":{"lon":17.6347,"lat":47.6876},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":29.05,"feels_like":28.84,"temp_min":29.05,"temp_max":30.57,"pressure":1018,"humidity":42},"visibility":10000,"wind":{"speed":3.6,"deg":330},"clouds":{"all":0},"dt":1689075727,"sys":{"type":1,"id":6670,"country":"HU","sunrise":1689044546,"sunset":1689101217},"timezone":7200,"id":3052009,"name":"Győr","cod":200}
+
